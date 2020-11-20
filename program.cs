@@ -44,14 +44,8 @@ namespace exproot {
             }else {
                 Console.WriteLine("asal.");
             }
-
-
-
-
+            
             goto bas; 
-            
-            
-            
 
             Console.ReadLine();
 
