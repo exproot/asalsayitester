@@ -11,7 +11,7 @@ namespace exproot {
         
             int[] sayilar = { 2, 3, 5, 7, 11, 13, 17, 19 }; // test için kullanacağımız asal sayılar listesi daha da genişletilebilir.
 
-            int[] sonuclar = new int[sayilar.Length]; // girdiğimiz sayıyı listemizdeki sayılara böldüğümüzde elde ettiğimiz kalan sayılar listesi.
+            int[] sonuclar = new int[sayilar.Length]; // girilen sayıyı listemizdeki sayılara böldüğümüzde elde ettiğimiz kalan sayılar listesi.
 
             bool isAsal = false; 
 
@@ -27,7 +27,7 @@ namespace exproot {
 
                 if (sayilar.Contains(x)) { 
 
-                    Console.WriteLine("asal.");    // girdiğimiz sayının listede olup olmadığını kontrol ediyoruz, eğer listedeyse asal olduğunu söyleyip başa geri dönüyoruz.
+                    Console.WriteLine("asal.");    // girilen sayının listede olup olmadığını kontrol ediyoruz, eğer listedeyse asal olduğunu söyleyip başa geri dönüyoruz.
                     goto bas;
                     
                 } else {
