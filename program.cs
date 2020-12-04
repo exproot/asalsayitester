@@ -1,3 +1,15 @@
+/*
+
+Title : ASAL SAYI TESTER 
+
+Author : Ertan Yağmur (exproot)
+
+Date : 22 Nov 2020
+
+*/
+
+
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
